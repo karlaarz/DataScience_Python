@@ -3,7 +3,7 @@ title: |
   | [![](wgyt.png){width=250 style="display: block; margin: 0 auto"}](https://www.wintergenomics.com)
   | "Guía de Instalación"
 subtitle: "Introducción a Data Science con `Python`"
-author: "Winter Genomics"
+author: "Winter Genomics School"
 output: 
   prettydoc::html_pretty:
     theme: cayman
