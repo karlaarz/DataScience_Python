@@ -1,0 +1,6 @@
+book_filename: "Winter School"
+
+site: "bookdown::bookdown_site"
+output_dir: docs
+new_session: yes
+rmd_files: ["guia_instalacion.Rmd"]
