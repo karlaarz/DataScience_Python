@@ -1,0 +1,118 @@
+---
+title: |
+  | [![](wgyt.png){width=250 style="display: block; margin: 0 auto"}](https://www.wintergenomics.com)
+  | "Guía de Instalación"
+subtitle: "Introducción a Data Science con `Python`"
+author: "Winter Genomics"
+output: 
+  prettydoc::html_pretty:
+    theme: cayman
+    highlight: github
+github-repo: "wintergenomics/DataScience_Python"
+---
+<p align="justify">
+Ésta es una guía de instalación de las librerías/paquetes que se utilizarán durante el curso de "Introducción a Data Science con Python". Se recomienda tener instalado `Python` con un gestor de paquetes como [Anaconda](https://www.anaconda.com/products/distribution) o [miniconda](https://docs.conda.io/en/latest/miniconda.html). 
+</p>
+
+<p align="justify">
+Si no tienes instalado Python, aquí encontrarás la [guía de instalación](https://drive.google.com/file/d/1yMzSTJv5QqVp8yYVK0SvKxEyDQ-e674m/view?usp=sharing): 
+</p>
+
+<p align="justify">
+Si tienes un gestor de paquetes puedes comprobar que está instalada la librería requerida con el siguiente comando en tu terminal:
+</p>
+
+```
+conda list
+```
+
+Te aparecerá una tabla similar a esta: 
+
+```
+numexpr                   2.8.1            py38h2e5f0a9_0  
+numpy                     1.21.5           py38h2e5f0a9_2  
+numpy-base                1.21.5           py38h3b1a694_2  
+numpydoc                  1.2                pyhd3eb1b0_0  
+openpyxl                  3.0.9              pyhd3eb1b0_0  
+openssl                   1.1.1p               hca72f7f_0  
+packaging                 21.3               pyhd3eb1b0_0  
+pandas                    1.4.2            py38he9d5cce_0 
+```
+
+La primera columna indica la librería y la segunda la versión. 
+
+## `NumPy`
+
+Versión sugerida: `1.21.x`
+
+* Opción 1: Instalar o actualizar `NumPy` a través de `conda`: 
+
+```
+conda install numpy
+```
+
+* Opción 2: Instalar o actualizar `NumPy` a través de `pip`:
+
+```
+pip install numpy
+```
+
+## `Pandas`
+
+Versión sugerida:  `1.4.x`. 
+
+* Opción 1: Instalar o actualizar `Pandas` a través de `conda`: 
+
+```
+conda install pandas
+```
+
+* Opción 2: Instalar o actualizar `Pandas` a través de `pip`:
+
+```
+pip install pandas
+```
+
+## `matplotlib`
+
+Versión sugerida: `3.5.x`
+
+* Opción 1: Instalar o actualizar `Matplotlib` a través de `conda`:
+
+```
+conda install matplotlib
+```
+
+* Opción 2: Instalar o actualizar `Matplotlib` a través de `pip`: 
+
+```
+pip install matplotlib
+```
+
+## `seaborn`
+
+Versión sugerida: `0.11.2`
+
+* Opción 1: Instalar o actualizar `seaborn` a través de `conda`:
+
+```
+conda install seaborn
+```
+
+* Opción 2: Instalar o actualizar `seaborn` a través de `pip`: 
+
+```
+pip install seaborn
+```
+
+## Errores durante la instalación
+
+<p align="justify">
+Si tienes cualquier duda durante la instalación, envíanos un correo a cursos@wintergenomics.com con la captura de pantalla del error y los siguientes datos de tu computadora para que podamos asesorarte correctamente:
+</p>
+
++ Marca
++ SO
++ Antigüedad de la computadora
++ Memoria RAM 
++ Espacio disponible
