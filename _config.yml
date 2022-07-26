@@ -1,3 +1,2 @@
 theme: jekyll-theme-cayman
 book_filename: "Introducción a Data Science con Python"
-rmd_files: ["guia_instalacion.Rmd"]
