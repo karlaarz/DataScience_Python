@@ -1,8 +1,7 @@
 ---
-title: |
+title: | "Introducción a Data Science con `Python`"
   | [![](wgyt.png){width=250 style="display: block; margin: 0 auto"}](https://www.wintergenomics.com)
-  | "Guía de Instalación"
-subtitle: "Introducción a Data Science con `Python`"
+subtitle: "Guía de Instalación"
 author: "Winter Genomics School"
 output: 
   prettydoc::html_pretty:
